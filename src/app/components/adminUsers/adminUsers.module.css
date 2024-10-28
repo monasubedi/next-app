@@ -1,0 +1,36 @@
+
+.container{
+  
+}
+.container h1{
+    margin-bottom: 20px;
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user img{
+    border-radius: 50%;
+}
+.del{
+    background-color: rgb(96, 7, 7);
+    padding: 3px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+
+}

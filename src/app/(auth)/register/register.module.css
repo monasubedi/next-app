@@ -1,0 +1,12 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 350px;
+    background-color: var(--bgSoft);
+    padding: 25px 30px;
+}
+

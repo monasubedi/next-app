@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+}
+.text{
+    font-size: 12px;
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
